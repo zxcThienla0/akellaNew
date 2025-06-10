@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+        user-scalable=no, maximum-scale=1.0, minimul-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <title>Akella24</title>
+    <link rel="icon" type="image/png" href="icon/logo_title.png">
+</head>
+
+<body style="background-repeat: no-repeat;
+    background-image: url(icon/9620325.jpg);
+    background-position-y: -8%;">
+    <header class="header" id="header">
+        <div class="container" style="padding-top: 15px; align-items: center; justify-content: space-around;">
+            <div class="header__menu">
+                <div style="float: left;" class="container__header">
+                    <a href="https://vk.com/akella24vet" class="header__button" target="_blank">
+                        <img src="icon/vk1.svg" class="socLogo" alt="vkLogo">
+                    </a>
+                    <a href="https://www.instagram.com/akella_vet/" class="header__button" target="_blank">
+                        <img src="icon/instagram1.svg" class="socLogo" alt="instLogo">
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=79082122144&text&type=phone_number&app_absent=0"
+                        class="header__button"
+                        style="background-color: chartreuse; border-radius: 15px; font-family: 'Courier New', Courier, monospace;"
+                        target="_blank">
+                        <p style="margin-top: 11px;">Чат WhatsApp</p>
+                    </a>
+                </div>
+            </div>
+            <a href="index.html" class="header__logo">
+                <img src="icon/logo.png" alt="Akella24" loading="lazy">
+            </a>
+            <div class="header__menu hiden__mobile">
+                <div class="container__header" style="justify-content: end;">
+                    <div class="head__info">
+                        Круглосуточно<br>
+                        Многоканальный телефон<br>
+                        <a href="tel:+73912922144" class="contact_number">+7 (391) 2-922-144</a><br>
+                        Удобная парковка<br>
+                        <a href="" class="blueA" style="padding: 0px 5px;">Паспорт РФ на приеме обязателен!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hiden__mobile">
+                <a class="header__button" href="index.html">Главная</a>
+                <a class="header__button" href="infoblock.html">Новости и Акции</a>
+                <a class="header__button" href="price.html">Услуги и цены</a>
+                <a class="header__button" href="signUp.html">Запись на приём</a>
+            </div>
+        </div>
+        <div class="header__menu mobile__on">
+            <div class="container__header mobile__on">
+                <button class="header_button_mobile .showing" id="openButton">
+                    Menu
+                </button>
+                <button class="header_button_mobile no_show" id="closeButton">
+                    Menu
+                </button>
+            </div>
+        </div>
+        <div class="need_show no_show">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="infoblock.html">Новости и Акции</a></li>
+                <li><a href="price.html">Услуги и цены</a></li>
+                <li><a href="signUp.html">Запись на приём</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <br>
+    <h1 class="container aaa element-animation" id="zagolovokVverhu" style="display: flex; justify-content: center;">
+        <div class="zagolovok">
+            <strong style="font-weight: 600;">
+                Новости и Акции в ветклинике «Акелла»
+            </strong>
+        </div>
+    </h1>
+    <br>
+    <div class="container">
+        <div class="buttonFilters">
+            <button id="allButton">Показать все</button>
+            <button id="newsButton">Новости</button>
+            <button id="promotionButton">Акции</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="products" class="catalog_container">
+
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="container btnCatalog">
+            <div style="width: 321px;">
+                <button id="btnPrevPage" class="btnPrevPage">
+                    Показать предыдущую
+                </button>
+            </div>
+            <div style="width: 320px;">
+                <button id="btnNextPage" class="btnNextPage">
+                    Показать следующую
+                </button>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div class="footer-img">
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="bottom-block">
+                <a href="index.html" class="logo-img"><img src="icon/logo-blue.png" alt="Akella24"></a>
+                <a href="tel:+73912922144" class="fphone">+7 (391) 2-922-144</a>
+                <p>Для клиентов:</p>
+                <ul>
+                    <li>Круглосуточно</li>
+                    <li>Без выходных</li>
+                    <li>Удобная парковка</li>
+                    <li>Паспорт на приеме обязателен</li>
+                </ul>
+                <p>Адрес: 660022, г.Красноярск, ул. Партизана Железняка 9Г</p>
+            </div>
+            <div class="bottom-block bottom-block-mid pad">
+                <meta itemprop="addressLocality" content="Красноярск">
+                <ul>
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="infoblock.html">Новости и Акции</a></li>
+                    <li><a href="">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="bottom-block bottom-block-mid">
+                <ul>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Донорам</a></li>
+                    <li><a href="">Им нужен дом</a></li>
+                </ul>
+            </div>
+            <div class="bottom-block bottom-block-mid">
+                Присоединяйтесь к нам: <br>
+                <a href="https://vk.com/akella24vet" target="_blank">
+                    <img src="icon/vk1.svg" class="socLogo" alt="vkLogo">
+                </a>
+                <a href="https://www.instagram.com/akella_vet/" target="_blank">
+                    <img src="icon/instagram1.svg" class="socLogo" alt="instLogo"> <br>
+                    <a href="signUp.html" class="footer-button">Записаться на прием</a>
+                    <br> <br> <br> <br>
+            </div>
+        </div>
+    </footer>
+    <div class="btn-up btn-up_hide"></div>
+    <script src="scripts/buttonUp.js"></script>
+    <script src="scripts/Animathion.js"></script>
+    <script src="scripts/header_menu_button.js"></script>
+    <script src="scripts/catalogScript.js"></script>
+</body>
+
+</html>
